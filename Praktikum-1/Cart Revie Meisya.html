@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <title>Cart Shopping</title>
+</head>
+<body>
+    <header>
+        <nav style="background-color:lightblue; padding: 15px;">
+       
+            <ul style="display: flex ; list-style-type: none;">
+            <li style="margin-right: 35px;"><a href="">Tokopedia</a></li>
+            <li style="margin-left: 80px ;margin-right: 35px;"><a href="">Category 1</a></li>
+            <li style="margin-right: 35px;"><a href="">Category 2</a></li>
+            <li style="margin-right: 35px;"><a href="">Category 3</a></li>
+            <li style="margin-left: auto; margin-right: 10px;"><i class="bi bi-search"></i></li>
+            <li style="margin-right: 0;"><i class="bi bi-cart4"></i>Cart(1)</li>
+            </ul>
+    </nav>
+    <hr>
+    </header>
+    <main>
+        <table style="width: 100%;">
+            <tr>
+                <td>
+                    <h2>Your chart</h2>
+                    <table style="border-collapse: collapse;">
+                        <thead>
+                            <tr>
+                                <th style=" width: 150px ; border-top: 1px solid ; border-bottom: 1px solid;">Item</th>
+                                <th style=" width: 150px; border-top: 1px solid ; border-bottom: 1px solid;">Price</th>
+                                <th style=" width: 150px; border-top: 1px solid ; border-bottom: 1px solid;">Quantity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td title ="Item" style=" text-align: center ; padding : 20px">
+                                    <img src ="https://cf.shopee.co.id/file/caa7602e7cc53bf0fc853d2cae894437" style="width: 50px; height: 50px;" alt="Ikon Cart">
+                                    <p>T-shirt
+                                        Size : M
+                                    </p>
+                                </td>
+                                <td title ="price"  style=" text-align: center; padding : 20px">
+                                    <b>IDR 800K</b>
+                                </td>
+                                <td title ="quantity" style="text-align: center;">
+                                    <input type="number" name="quantity" min="1" max="100">
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3" style=" text-align: right; border-top: 1px solid ; border-bottom: 1px solid;">Subtotal : <b>IDR 800K</b></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </td>
+                <td>
+                    
+                    <table style="border-collapse: collapse;">
+                        <thead>
+                            <tr>
+                                <th style="text-align: justify; border-top: 1px solid; border-left: 1px solid; background-color:lightblue;"><h3 >Summary (1 Item)</h3></th>
+                                <th style="text-align: justify; border-top: 1px solid; border-right: 1px solid; background-color:lightblue;"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                               <td style="text-align: left;border-left: 1px solid; background-color:lightblue"><p>Subtotal
+                                    <br>Shipping
+                                    <br>Est. Toxes
+                                    <br>
+                                    <br>Subtotal
+                                    </p></td>
+                                <td style="text-align: right;border-right: 1px solid;background-color: lightblue"><p><b>IDR 80000</b>
+                                        <br><b>-</b>
+                                        <br><b>-</b>
+                                        <br>
+                                        <br>IDR 800k
+                                        </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <br>
+                                <br>
+                                <br>
+                                <td colspan ="2" style=" text-align: center; border-right: 1px solid ;border-left: 1px solid;border-bottom: 1px solid ; background-color: lightblue;">
+                                   <input type="submit" value="checkout" style="color: white; background-color: rgb(240, 135, 153);"></a></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer style="background-color: lightblue;padding: 3px;">
+        <ul style="display: flex ; list-style: none;">
+            <li style="margin-right: 25px;">Tokopedia
+            <br>
+            <p><img src="https://cdn-icons-png.flaticon.com/128/493/493836.png" style="width: 30px; height: 30px;" alt="visa">
+                <img src="https://cdn-icons-png.flaticon.com/128/147/147258.png" style="width: 30px; height: 30px;" alt="card bank">
+                <img src="https://cdn-icons-png.flaticon.com/128/5614/5614873.png" style="width: 30px; height: 30px;" alt="card bank"></p></li>
+            <li style="margin-left: 80px ;margin-right: 35px;">Category 1</li>
+            <li style="margin-right: 35px;">Category 2</li>
+            <li style="margin-right: 35px;">Category 3</li>
+            <li style="margin-left: auto; margin-right: 10px;"><p>Stay In Touch! Join Our Newsletter </p>
+            <input type="text" name="email" value="enter your email" id="email"><input type="submit" value="Subcribe" style="color: white; background-color:pink">
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
